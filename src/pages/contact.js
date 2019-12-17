@@ -3,13 +3,13 @@ import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-export default function IndexPage({data 
+export default function Contact({data 
   // this prop will be injected by the GraphQL query below.
 }) {
   return(
     <Layout>
-      <SEO title="Home" />
-      <h1>Under Construction</h1>
+        <SEO title="Contact" />
+        <h1>Under Construction</h1>
     </Layout>
   )
 }

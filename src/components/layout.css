@@ -8,7 +8,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-article,
+.visually-hidden { 
+  border: 0;
+  /* IE6, IE7 */
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  white-space: nowrap; /* added line */
+  position: absolute !important;
+}
+/* article,
 aside,
 details,
 figcaption,
@@ -619,4 +632,4 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-}
+} */

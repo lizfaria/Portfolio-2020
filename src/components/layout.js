@@ -2,6 +2,7 @@ import React from "react"
 import Nav from "./Nav"
 import Footer from "./Footer"
 import styled from "styled-components"
+import "./layout.css";
 
 const Layout = ({ children }) => {
 
@@ -11,6 +12,9 @@ const Layout = ({ children }) => {
     min-height: 100vh;
     font-size: 16px;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     a {
       color: black;
     }
