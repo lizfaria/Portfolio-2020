@@ -12,7 +12,7 @@ projects:
         url_text: View Frontend Code
     subtitle: >-
       React, Redux, Unit & Component Testing, Node, Firebase, CID, Team
-      Programming, Continous Integration & Deployment
+      Programming, Continous Integration & Deployment, Semantic UI
     text: >-
       For the final group project for Bridge, I was put in a team of four to
       build an test-driven application built in React and Redux that fulfilled
@@ -22,5 +22,23 @@ projects:
       also used deployment services like Netlify and Heroku for continous
       deployment of integrated code on Github.
     title: Bridge Applications App
+  - image: /static/assets/screenshot_2019-12-17-home.jpg
+    imageAlt: Screenshot of Homepage for TMC Application
+    links:
+      - url: See Live
+        url_text: 'https://tmc-exhibition-pwa.netlify.com/'
+    subtitle: >-
+      PWA, React, GraphQl, Gatsby, Netlify CMS, Netlify Continous Deployment,
+      GSAP, ThreeJS
+    text: >-
+      This app is currently installed on iPads at the Textile Museum of Canada
+      to pair with the ᖃᓪᓗᓈᖅᑕᐃᑦ ᓯᑯᓯᓛᕐᒥᑦ PRINTED TEXTILES FROM KINNGAIT STUDIOS
+      exhibit. It displays all objects at the exhibit and features hotspots on
+      each object page that users can interact with to open multimedia models
+      with more information. A requirment of the app was for it to provide
+      support for offline experience and bad network connections. For this
+      reason, it is built as a Progressive Web App - it uses a service worker to
+      cache data.
+    title: Textile Museum of Canada Exhibition App
 ---
 
