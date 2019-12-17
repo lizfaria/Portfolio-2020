@@ -46,11 +46,13 @@ collections:
             - {label: Subtitle, name: subtitle, widget: string}
             - {label: Image, name: image, widget: image}
             - {label: Image Alt, name: imageAlt, widget: string}
-            - {label: text, name: text, widget: body}
-            - {label: URL, name: url, widget: string}
-            - {label: URL Btn Text, name: url_text, widget: string}
-            - {label: Github URL, name: githubUrl, widget: string}
-            - {label: Github URL Text, name: githubUrl_text, widget: string}
+            - {label: text, name: text, widget: markdown}
+            - label: Links
+              name: links
+              widget: list
+              fields: 
+              - {label: URL, name: url, widget: string}
+              - {label: URL Btn Text, name: url_text, widget: string}
       - name: skills
         label: Skills
         file: src/markdown-pages/collection/skills.md
