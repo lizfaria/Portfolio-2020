@@ -38,7 +38,6 @@ collections:
         fields:
           - {label: Template Key, name: templateKey, widget: hidden, default: portfolio }
           - {label: Title, name: title, widget: string}
-          - { name: body, label: Body, widget: markdown }
           - label: Projects
             name: projects
             widget: list
@@ -48,11 +47,10 @@ collections:
             - {label: Image, name: image, widget: image}
             - {label: Image Alt, name: imageAlt, widget: string}
             - {label: text, name: text, widget: body}
-            - label: Links
-              name: links
-              widget: list
-              - {label: url, name: url, widget: string}
-              - {label: text, name: text, widget: string}
+            - {label: URL, name: url, widget: string}
+            - {label: URL Btn Text, name: url_text, widget: string}
+            - {label: Github URL, name: githubUrl, widget: string}
+            - {label: Github URL Text, name: githubUrl_text, widget: string}
       - name: skills
         label: Skills
         file: src/markdown-pages/collection/skills.md
@@ -63,4 +61,4 @@ collections:
             name: skills-list
             widget: list
             fields: 
-            - {label: text, name: text, widget: string}
+              - {label: text, name: text, widget: string}
