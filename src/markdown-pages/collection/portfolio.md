@@ -59,5 +59,43 @@ projects:
       achieve an interesting slideshow with refraction and window blinds
       effects.
     title: Factor 2019 Annual Report
+  - image: /static/assets/screenshot_2019-12-17-none.jpg
+    imageAlt: Screenshot of homepage for EON site
+    links:
+      - url: 'http://eon.ryerson.ca/'
+        url_text: See Live
+    subtitle: 'JavaScript, SCSS, Django Templating, HTML, MailChimp, Custom CMS'
+    text: >-
+      This fast website for Ryerson's Employment Opportunity program is created
+      using templates so site managers can easily add and remove components on
+      each page, and edit data using the integrated content management system.
+      It features some fun CSS animations for link hover/focus states.
+    title: Ryerson Entrepenur Opportunity Network Site
+  - image: /static/assets/screenshot_2019-12-17-new-harvest-2019.png
+    imageAlt: Screenshot of Conference Homepage
+    links:
+      - url: 'https://2019.new-harvest.org/'
+        url_text: See Live
+    subtitle: 'JavaScript, HTML, SCSS, Pure-Grids, Youtube API, GSAP, ScrollMagic'
+    text: >-
+      New Harvest's 2019 conference website is a stunning interactive single
+      page site that includes a parallax animation of the header on scroll, a
+      smooth and unique navigation animation and clever hover/click states to
+      reveal more information of speakers and schedules. The video modal on this
+      site connects to the YouTube API in order to start the video when a user
+      opens the video modal, and pause the video when they close it.
+    title: New Harvest 2019 Conference Site
+  - image: /static/assets/screenshot_2019-12-17-invatron.png
+    imageAlt: Screenshot of homepage of Invatron wesbite
+    links:
+      - url: 'http://invatron.com/en/'
+        url_text: See Live
+    subtitle: 'JavaScript, HTML, SCSS, Slick, Datamaps '
+    text: >-
+      A website for an item management software used in grocery stores. Includes
+      an interactive grocery store map where users can click on different aisles
+      to get more information about how the software can provide solutions
+      according to department.
+    title: 'Invatron '
 ---
 
