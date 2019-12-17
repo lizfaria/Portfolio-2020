@@ -25,8 +25,8 @@ projects:
   - image: /static/assets/screenshot_2019-12-17-home.jpg
     imageAlt: Screenshot of Homepage for TMC Application
     links:
-      - url: See Live
-        url_text: 'https://tmc-exhibition-pwa.netlify.com/'
+      - url: 'https://tmc-exhibition-pwa.netlify.com/'
+        url_text: See Live
     subtitle: >-
       PWA, React, GraphQl, Gatsby, Netlify CMS, Netlify Continous Deployment,
       GSAP, ThreeJS
@@ -40,5 +40,24 @@ projects:
       reason, it is built as a Progressive Web App - it uses a service worker to
       cache data.
     title: Textile Museum of Canada Exhibition App
+  - image: /static/assets/screenshot_2019-12-17-factor-2018—2019-artists.png
+    imageAlt: Screenshot of Homepage
+    links:
+      - url: 'http://2019.factor.ca/'
+        url_text: See Live
+    subtitle: >-
+      JavaScript, HTML5 audio, Django Templating, Slick, CSS Animations,
+      Waypoints
+    text: >-
+      The annual report site features a MP3 player that is linked to every song
+      button across different pages on the site. Using HTML5 DOM methods,
+      properties, and events, users can select which songs to play, and
+      automatically play the next consecutive song on the playlist when the
+      current song ends. Whenever a user navigates to an internal page, the page
+      is loaded into a div, so the page does not refresh and the media player
+      continues playing music without interruption. This site also uses slick to
+      achieve an interesting slideshow with refraction and window blinds
+      effects.
+    title: Factor 2019 Annual Report
 ---
 
