@@ -42,7 +42,7 @@ collections:
             name: projects
             widget: list
             fields: 
-            - {label: Title, name: text, widget: string}
+            - {label: Project Title, name: title, widget: string}
             - {label: Subtitle, name: subtitle, widget: string}
             - {label: Image, name: image, widget: image}
             - {label: Image Alt, name: imageAlt, widget: string}
