@@ -1,5 +1,5 @@
 ---
-title: Recent Work
+title: Featured Work
 projects:
   - image: /static/assets/screenshot_2019-12-17-cohort-application-forms-1-.png
     imageAlt: Screenshot of Admin Dashboard on Applications App
@@ -97,5 +97,37 @@ projects:
       to get more information about how the software can provide solutions
       according to department.
     title: 'Invatron '
+  - image: /static/assets/screenshot_2019-12-17-marvel.jpg
+    imageAlt: Screenshot of App Homepage
+    links:
+      - url: 'https://devavengers-f4922.firebaseapp.com/'
+        url_text: See Live
+      - url: 'https://github.com/lizfaria/devAvengers'
+        url_text: See Code
+    subtitle: 'React Router, AXIOS, Firebase Database & Authentication, Team- Programming'
+    text: >-
+      This React application lets users search for comics from the Marvel API,
+      and login to save any results to their personal collection. I built
+      collaborated with two team members on this app for the final project of
+      the Juno Web Development Bootcamp in Spring 2018.
+    title: Juno Marvel Comic App
+  - image: /static/assets/screenshot_2019-12-17-bonbanho.png
+    imageAlt: Screenshot of App Homepage
+    links:
+      - url: 'https://lizfaria.github.io/on-the-case/'
+        url_text: See Live
+      - url: 'https://github.com/supermysteryteam/on-the-case'
+        url_text: See Github
+    subtitle: 'jQuery, JavaScript, Pair Programming, Google Maps API, Refuge API'
+    text: >-
+      Fetching filtered data from Google Maps and Refuge APIs according to user
+      location and form inputs, this site helps users find wheelchair accessible
+      and gender-neutral washrooms. I collaborated on this app with a classmate
+      for the first JavaScript project at the Juno Web Development Bootcamp in
+      Spring 2017. Although the code is not perfect, I am very proud of the idea
+      and look behind the app. In the future, I would like to refactor this app
+      to include cleaner code, draw from more reliable data and allow for user
+      feedback.
+    title: Accessible Bathroom Locator App
 ---
 
