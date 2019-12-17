@@ -1,5 +1,5 @@
 backend:
-  name: portfolio-2020
+  name: github
   repo: lizfaria/Portfolio-2020
 media_folder: static/assets
 public_folder: static/assets
