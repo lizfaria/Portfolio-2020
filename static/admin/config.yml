@@ -14,6 +14,7 @@ collections:
           - {label: Template Key, name: templateKey, widget: hidden, default: home }
           - {label: Title, name: title, widget: string}
           - {label: Headshot, name: headshot, widget: image}
+          - {label: Logo, name: logo, widget: image}
           - {name: body, label: Body, widget: markdown }
           - {name: resume, label: Resume, widget: file }
       - name: contact
