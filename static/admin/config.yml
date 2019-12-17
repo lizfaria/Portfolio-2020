@@ -2,7 +2,7 @@ backend:
   name: github
   repo: lizfaria/Portfolio-2020
 media_folder: static/assets
-public_folder: static/assets
+public_folder: /assets
 collections:
   - label: "Pages"
     name: "pages"
@@ -11,7 +11,7 @@ collections:
         label: Home
         file: src/markdown-pages/collection/home.md
         fields:
-          - {label: Template Key, name: templateKey, widget: hidden, default: home }
+         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home" }
           - {label: Title, name: title, widget: string}
           - {label: OverTitle, name: overtitle, widget: string}
           - {label: Headshot, name: headshot, widget: image}
