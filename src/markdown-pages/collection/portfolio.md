@@ -97,6 +97,18 @@ projects:
       to get more information about how the software can provide solutions
       according to department.
     title: 'Invatron '
+  - image: /static/assets/screenshot_2019-12-17-cep-providers.png
+    imageAlt: Screenshot of homepage
+    links:
+      - url: 'https://cep.health/'
+        url_text: View Live
+    subtitle: 'JavaScript, SCSS, HTML, Django, Slick, Custom CMS'
+    text: >-
+      A clinical tools and blog website for health practitioners in Toronto.
+      This site includes several forms and an events section that links up with
+      a user's Google Calendar and social share links for practitioners to share
+      resources.
+    title: CEP Clinical Tools and Blog Website
   - image: /static/assets/screenshot_2019-12-17-marvel.jpg
     imageAlt: Screenshot of App Homepage
     links:
@@ -128,6 +140,6 @@ projects:
       and look behind the app. In the future, I would like to refactor this app
       to include cleaner code, draw from more reliable data and allow for user
       feedback.
-    title: Accessible Bathroom Locator App
+    title: Juno Accessible Bathroom Locator App
 ---
-
+I've developed and contributed to sites and apps for major education, tech, business, and arts organizations including: The Textile Museum of Canada, Ryerson Entrepenur Opportunity Network, Ryerson Image Arts Centers, Staples, New Harvest, Center for Effective Practice, Invatron, Gallery 44, Factor, Downtown Yonge BIA, and Tennis Design. Some of these sites are featured below in chronologoical order.
