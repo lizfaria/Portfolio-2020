@@ -16,47 +16,47 @@ collections:
           - {label: Headshot, name: headshot, widget: image}
           - {name: body, label: Body, widget: markdown }
           - {name: resume, label: Resume, widget: file }
-      # - name: contact
-      #   label: Contact
-      #   file: src/markdown-pages/collection/contact.md
-      #   fields:
-      #     - {label: Template Key, name: templateKey, widget: hidden, default: contact }
-      #     - {label: Title, name: title, widget: string}
-      #     - { name: body, label: Body, widget: markdown }
-      #     - label: Links
-      #       name: links
-      #       widget: list
-      #       fields: 
-      #       - {label: Image, name: image, widget: image}
-      #       - {label: Image Alt, name: imageAlt, widget: string}
-      #       - {label: text, name: text, widget: string}
-      #       - {label: url, name: url, widget: string}
-      # - name: portfolio
-      #   label: Portfolio
-      #   file: src/markdown-pages/collection/portfolio.md
-      #   fields:
-      #     - {label: Template Key, name: templateKey, widget: hidden, default: portfolio }
-      #     - {label: Title, name: title, widget: string}
-      #     - { name: body, label: Body, widget: markdown }
-      #     - label: Links
-      #       name: links
-      #       widget: list
-      #       fields: 
-      #       - {label: Image, name: image, widget: image}
-      #       - {label: Image Alt, name: imageAlt, widget: string}
-      #       - {label: text, name: text, widget: string}
-      #       - {label: url, name: url, widget: string}
-      # - name: skills
-      #   label: Skills
-      #   file: src/markdown-pages/collection/skills.md
-      #   fields:
-      #     - {label: Template Key, name: templateKey, widget: hidden, default: skills }
-      #     - {label: Title, name: title, widget: string}
-      #     - { name: body, label: Body, widget: markdown }
-      #     - label: Skills List
-      #       name: skills-list
-      #       widget: list
-      #       fields: 
-      #       - {label: Image, name: image, widget: image}
-      #       - {label: Image Alt, name: imageAlt, widget: string}
-      #       - {label: text, name: text, widget: string}
+      - name: contact
+        label: Contact
+        file: src/markdown-pages/collection/contact.md
+        fields:
+          - {label: Template Key, name: templateKey, widget: hidden, default: contact }
+          - {label: Title, name: title, widget: string}
+          - { name: body, label: Body, widget: markdown }
+          - label: Links
+            name: links
+            widget: list
+            fields: 
+            - {label: Image, name: image, widget: image}
+            - {label: Image Alt, name: imageAlt, widget: string}
+            - {label: text, name: text, widget: string}
+            - {label: url, name: url, widget: string}
+      - name: portfolio
+        label: Portfolio
+        file: src/markdown-pages/collection/portfolio.md
+        fields:
+          - {label: Template Key, name: templateKey, widget: hidden, default: portfolio }
+          - {label: Title, name: title, widget: string}
+          - { name: body, label: Body, widget: markdown }
+          - label: Links
+            name: links
+            widget: list
+            fields: 
+            - {label: Image, name: image, widget: image}
+            - {label: Image Alt, name: imageAlt, widget: string}
+            - {label: text, name: text, widget: string}
+            - {label: url, name: url, widget: string}
+      - name: skills
+        label: Skills
+        file: src/markdown-pages/collection/skills.md
+        fields:
+          - {label: Template Key, name: templateKey, widget: hidden, default: skills }
+          - {label: Title, name: title, widget: string}
+          - { name: body, label: Body, widget: markdown }
+          - label: Skills List
+            name: skills-list
+            widget: list
+            fields: 
+            - {label: Image, name: image, widget: image}
+            - {label: Image Alt, name: imageAlt, widget: string}
+            - {label: text, name: text, widget: string}
