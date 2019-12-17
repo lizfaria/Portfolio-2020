@@ -1,7 +1,7 @@
 ---
 title: Recent Work
 projects:
-  - image: /static/assets/screenshot_2019-12-17-cohort-application-forms.png
+  - image: /static/assets/screenshot_2019-12-17-cohort-application-forms-1-.png
     imageAlt: Screenshot of Admin Dashboard on Applications App
     links:
       - url: 'https://nifty-yonath-7c3e65.netlify.com/'
@@ -40,7 +40,7 @@ projects:
       reason, it is built as a Progressive Web App - it uses a service worker to
       cache data.
     title: Textile Museum of Canada Exhibition App
-  - image: /static/assets/screenshot_2019-12-17-factor-2018—2019-artists.png
+  - image: /static/assets/screenshot_2019-12-17-factor-2018—2019-artists-1-.png
     imageAlt: Screenshot of Homepage
     links:
       - url: 'http://2019.factor.ca/'
@@ -59,7 +59,7 @@ projects:
       achieve an interesting slideshow with refraction and window blinds
       effects.
     title: Factor 2019 Annual Report
-  - image: /static/assets/screenshot_2019-12-17-none.jpg
+  - image: /static/assets/screenshot_2019-12-17-none.png
     imageAlt: Screenshot of homepage for EON site
     links:
       - url: 'http://eon.ryerson.ca/'
@@ -85,7 +85,7 @@ projects:
       site connects to the YouTube API in order to start the video when a user
       opens the video modal, and pause the video when they close it.
     title: New Harvest 2019 Conference Site
-  - image: /static/assets/screenshot_2019-12-17-invatron.png
+  - image: /static/assets/screenshot_2019-12-17-invatron-1-.png
     imageAlt: Screenshot of homepage of Invatron wesbite
     links:
       - url: 'http://invatron.com/en/'
