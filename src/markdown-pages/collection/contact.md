@@ -1,7 +1,7 @@
 ---
 title: Get In Touch
 links:
-  - image: /static/assets/twitter_social_icon_circle_color.svg
+  - image: /assets/twitter-logo-on-black-background.svg
     imageAlt: Twitter logo
     text: '@lizcookscode'
     url: 'https://twitter.com/lizcookscode?lang=en'
