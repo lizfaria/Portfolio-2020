@@ -11,7 +11,7 @@ collections:
         label: Home
         file: src/markdown-pages/collection/home.md
         fields:
-         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home" }
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home" }
           - {label: Title, name: title, widget: string}
           - {label: OverTitle, name: overtitle, widget: string}
           - {label: Headshot, name: headshot, widget: image}
@@ -24,6 +24,7 @@ collections:
         fields:
           - {label: Template Key, name: templateKey, widget: hidden, default: contact }
           - {label: Title, name: title, widget: string}
+          - {label: Email, name: email, widget: string}
           - label: Links
             name: links
             widget: list

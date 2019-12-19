@@ -1,37 +1,134 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import styled from "styled-components"
 
-export default function Portfolio({data 
-  // this prop will be injected by the GraphQL query below.
-}) {
+export default function Portfolio({data}) {
+  const { allMarkdownRemark } = data 
+  const { frontmatter, html } = allMarkdownRemark.edges[0].node;
+  const {projects, title} = frontmatter;
+
+  const List = styled.div`
+    list-style: none;
+    margin-top: 2rem;
+    h2 {
+      text-align:left;
+    }
+    h2, h3 {
+      margin-top: 0;
+    }
+    h3 {
+      margin-bottom: 1rem;
+      padding-bottom: 0;
+      text-transform: uppercase;
+      font-size: .8rem;
+      letter-spacing: 1.2px;
+      font-weight: normal;
+      
+    }
+    li {
+      &:first-child {
+        border-top: 3px double orange;
+      }
+      border-bottom: 3px double orange;
+      &:last-child {
+        border-bottom: none;
+      }
+      padding: 3rem 0;
+      .grid {
+        @media (min-width: 768px) {
+          display: flex;
+          justify-content:space-between;
+        }
+      }
+    }
+    .primary-btn {
+      margin-bottom: 1rem;
+    }
+  `
+  const LeftColumn = styled.div`
+  @media (min-width: 768px) {
+    width: calc(50% - 1.5rem);
+  }
+  a {
+    display: inline-block;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  `
+  const RightColumn = styled.div`
+  @media (min-width: 768px) {
+    width: calc(50% - 1.5rem);
+  }
+    .text-container {
+      margin-bottom: 1.5rem;
+    }
+
+  `
   return(
     <Layout>
       <SEO title="Portfolio" />
-      <h1>Under Construction</h1>
+     
+      <h1>{title}</h1>
+      <div className="intro_text" dangerouslySetInnerHTML={{ __html: html }} />
+      
+      <List>
+      {projects.map(project => {
+        const {image, imageAlt, links, subtitle, text, title} = project;
+        const subtitleSplit = subtitle.split(', ').join(" | ")
+        return (
+          <li key={image}>
+              <h2>{title}</h2>
+            <div className="grid">
+              <LeftColumn>
+                {links.filter((link, index) => link === links[0]).map(link => {
+                  return (
+                    <a target="_blank" href={link.url}>
+                      <p class="visually-hidden">{link.url_text}</p>
+                      <img src={image.replace("/static", "")} alt={imageAlt}></img>
+                    </a>
+                  ) 
+                })}
+              </LeftColumn>
+              <RightColumn>
+                <h3>{subtitleSplit}</h3>
+                <p className="text-container" dangerouslySetInnerHTML={{ __html: text }} />
+                {links.map(link =><a className="primary-btn" target="_blank" href={link.url}>{link.url_text}</a>)}
+              </RightColumn>
+              
+            </div>
+          </li> 
+        )
+      })}
+      </List>
     </Layout>
   )
 }
 
 
-// export const pageQuery = graphql`
-//   query HomePageQuery {
-//     allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "home"}}}) {
-//       edges {
-//         node {
-//           frontmatter {
-//             title
-//             headshot {
-//               image
-//             }
-//             body
-//             resume {
-//               file
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;
+export const pageQuery = graphql`
+  query portfolioPage {
+    allMarkdownRemark(filter: {frontmatter: {title: {eq: "Featured Work"}}}) {
+      edges {
+        node {
+          frontmatter {
+            title
+            projects {
+              image
+              imageAlt
+              links {
+                url
+                url_text
+              }
+              subtitle
+              text
+              title
+            }
+          }
+          html
+        }
+      }
+    }
+  }
+`
