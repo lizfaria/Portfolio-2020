@@ -14,13 +14,13 @@ projects:
       React, Redux, Unit & Component Testing, Node, Firebase, CID, Team
       Programming, Continous Integration & Deployment, Semantic UI
     text: >-
-      For the final group project for Bridge, I was put in a team of four to
-      build an test-driven application built in React and Redux that fulfilled
+      For the final group project for Bridge, I collaborated in a team of four
+      to build a test-driven application in React and Redux that fulfilled
       requirements posed by a product owner. Requirements included allowing
       users to create and fill out application forms with different questions
-      types. We used backend Node to get and post data to firebase database. We
-      also used deployment services like Netlify and Heroku for continous
-      deployment of integrated code on Github.
+      types. For the backend, we used Node to get and post data to firebase
+      database. We also used deployment services like Netlify and Heroku for
+      continous deployment of integrated code on Github.
     title: Bridge Applications App
   - image: /static/assets/screenshot_2019-12-17-home.jpg
     imageAlt: Screenshot of Homepage for TMC Application
@@ -35,7 +35,7 @@ projects:
       to pair with the ᖃᓪᓗᓈᖅᑕᐃᑦ ᓯᑯᓯᓛᕐᒥᑦ PRINTED TEXTILES FROM KINNGAIT STUDIOS
       exhibit. It displays all objects at the exhibit and features hotspots on
       each object page that users can interact with to open multimedia models
-      with more information. A requirment of the app was for it to provide
+      with more information. A requirement of the app was for it to provide
       support for offline experience and bad network connections. For this
       reason, it is built as a Progressive Web App - it uses a service worker to
       cache data.
@@ -129,7 +129,7 @@ projects:
       - url: 'https://lizfaria.github.io/on-the-case/'
         url_text: See Live
       - url: 'https://github.com/supermysteryteam/on-the-case'
-        url_text: See Github
+        url_text: See Code
     subtitle: 'jQuery, JavaScript, Pair Programming, Google Maps API, Refuge API'
     text: >-
       Fetching filtered data from Google Maps and Refuge APIs according to user
