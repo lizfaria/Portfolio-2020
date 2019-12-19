@@ -1,5 +1,6 @@
 ---
 title: Get In Touch
+email: hello@lizfaria.ca
 links:
   - image: /assets/twitter-logo-on-black-background.svg
     imageAlt: Twitter logo
