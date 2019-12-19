@@ -5,11 +5,11 @@ projects:
     imageAlt: Screenshot of Admin Dashboard on Applications App
     links:
       - url: 'https://nifty-yonath-7c3e65.netlify.com/'
-        url_text: View Live
+        url_text: See Live
       - url: 'https://github.com/bridge-school/cohort-9-app-app-be/'
-        url_text: View Backend Code
+        url_text: See Backend Code
       - url: 'https://github.com/bridge-school/cohort-9-app-app-fe/'
-        url_text: View Frontend Code
+        url_text: See Frontend Code
     subtitle: >-
       React, Redux, Unit & Component Testing, Node, Firebase, CID, Team
       Programming, Continous Integration & Deployment, Semantic UI
@@ -101,7 +101,7 @@ projects:
     imageAlt: Screenshot of homepage
     links:
       - url: 'https://cep.health/'
-        url_text: View Live
+        url_text: See Live
     subtitle: 'JavaScript, SCSS, HTML, Django, Slick, Custom CMS'
     text: >-
       A clinical tools and blog website for health practitioners in Toronto.
