@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
-
 export default function Portfolio({data}) {
   const { allMarkdownRemark } = data 
   const { frontmatter, html } = allMarkdownRemark.edges[0].node;

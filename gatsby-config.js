@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Liz Faria Portfolio`,
-    description: `See Featured Work and Get In Touch`,
-    author: `@lizfaria`,
+    title: `Liz Faria's Portfolio`,
+    description: `See featured work and get in touch`,
+    author: `@lizcookscode`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -22,17 +22,24 @@ module.exports = {
         path: `src/markdown-pages`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `netlify-images`,
+        path: `${__dirname}/static/assets`,
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Liz Faria Portfolio`,
+        name: `Liz Faria's Portfolio`,
         short_name: `Liz Faria`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ED1C24`,
+        theme_color: `#ED1C24`,
         display: `minimal-ui`,
         icon: `src/images/favicon.svg`, // This path is relative to the root of the site.
       },

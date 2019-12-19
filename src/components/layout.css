@@ -28,11 +28,14 @@ body {
 }
 
 h1, h2 {
-      font-family: 'Nunito', sans-serif;
-      font-weight: normal;
+  font-family: 'Nunito', sans-serif;
+  font-weight: normal;
 }
 h1 {
   text-align: center;
+  @media(max-width: 1100px) {
+    text-align: left;
+  }
   font-size: 3rem;
   font-weight: 600;
   line-height: 1.2;

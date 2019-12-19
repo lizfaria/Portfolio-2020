@@ -61,7 +61,7 @@ export default function Contact({data
         <SEO title="Contact" />
         <Header>
           <h1>{title}</h1>
-          <h2><a href="mailto:{email}">{email}</a></h2>
+          <h2><a href={`mailto:${email}`}>{email}</a></h2>
         </Header>
         <List>
           {links.map(link => {

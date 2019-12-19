@@ -19,20 +19,19 @@ export default function IndexPage({data}) {
     }
   `
   const Header = styled.h1`
-  text-align:left !important;
-  &.h1--sm {
-    @media(min-width: 1100px) {
-      display:none;
+    text-align:left !important;
+    &.h1--sm {
+      @media(min-width: 1100px) {
+        display:none;
+      }
     }
-  }
-  &.h1--lg {
-    display: none;
-    @media(min-width: 1100px) {
-      display:block;
+    &.h1--lg {
+      display: none;
+      @media(min-width: 1100px) {
+        display:block;
+      }
     }
-  }
-  
-`
+  `
   const LeftColumn = styled.div`
     @media (min-width: 1100px) {
       width: calc(55% - 72px);
@@ -45,20 +44,20 @@ export default function IndexPage({data}) {
       border-bottom: 3rem solid white;
       border-left: 1rem solid white;
       border-right: 1rem solid white;
-      box-shadow: 1px 2px 3px rgba(0,0,0,0.3)
+      box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+      max-width: calc(100% - 2rem)
     }
-    
   `
   const RightColumn = styled.div`
-  .title {
-    text-align: left;
-  }
-  @media (min-width: 1100px) {
-    width: 45%;
-  }
-  .links {
-    margin: 2rem 0;
-  }
+    .title {
+      text-align: left;
+    }
+    @media (min-width: 1100px) {
+      width: 45%;
+    }
+    .links {
+      margin: 2rem 0;
+    }
   `
   return(
     <Layout>
