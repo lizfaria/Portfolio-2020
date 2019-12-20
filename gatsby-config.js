@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Liz Faria's Portfolio`,
+    title: `Liz Faria: Software Developer`,
     description: `See featured work and get in touch`,
     author: `@lizcookscode`,
   },
@@ -35,7 +35,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Liz Faria's Portfolio`,
+        name: `Liz Faria`,
         short_name: `Liz Faria`,
         start_url: `/`,
         background_color: `#ED1C24`,
