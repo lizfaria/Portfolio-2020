@@ -3,6 +3,8 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
+import Img from "gatsby-image"
+
 export default function Portfolio({data}) {
   const { allMarkdownRemark } = data 
   const { frontmatter, html } = allMarkdownRemark.edges[0].node;
@@ -27,6 +29,7 @@ export default function Portfolio({data}) {
       
     }
     li {
+      padding: 3rem 0;
       &:first-child {
         border-top: 3px double orange;
       }
@@ -34,7 +37,6 @@ export default function Portfolio({data}) {
       &:last-child {
         border-bottom: none;
       }
-      padding: 3rem 0;
       .grid {
         @media (min-width: 768px) {
           display: flex;
@@ -51,9 +53,11 @@ export default function Portfolio({data}) {
     width: calc(50% - 1.5rem);
   }
   a {
-    display: inline-block;
+    display: block;
     margin-bottom: 1rem;
     position: relative;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+
   }
   `
   const RightColumn = styled.div`
@@ -85,7 +89,8 @@ export default function Portfolio({data}) {
                   return (
                     <a target="_blank" href={link.url}>
                       <p class="visually-hidden">{link.url_text}</p>
-                      <img src={image.replace("/static", "")} alt={imageAlt}></img>
+                      {console.log(image.childImageSharp.fluid)}
+                      <Img fluid={image.childImageSharp.fluid} alt={imageAlt} />
                     </a>
                   ) 
                 })}
@@ -114,7 +119,13 @@ export const pageQuery = graphql`
           frontmatter {
             title
             projects {
-              image
+              image {
+                childImageSharp {
+                  fluid {
+                    ...GatsbyImageSharpFluid_noBase64
+                  }
+                }
+              }
               imageAlt
               links {
                 url

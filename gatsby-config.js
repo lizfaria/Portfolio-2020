@@ -18,18 +18,18 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `markdown-pages`,
-        path: `src/markdown-pages`,
+        name: `netlify-images`,
+        path: `${__dirname}/static/assets`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `netlify-images`,
-        path: `${__dirname}/static/assets`,
+        name: `markdown-pages`,
+        path: `src/markdown-pages`,
       },
     },
-    `gatsby-transformer-remark`,
+    // `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -53,7 +53,26 @@ module.exports = {
         ],
         display: 'swap'
       }
-    }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-relative-images`,
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 590,
+            },
+          },
+        ],
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

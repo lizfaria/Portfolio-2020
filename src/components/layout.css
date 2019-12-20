@@ -31,36 +31,45 @@ h1, h2 {
   font-family: 'Nunito', sans-serif;
   font-weight: normal;
 }
+
 h1 {
   text-align: center;
-  @media(max-width: 1100px) {
-    text-align: left;
-  }
   font-size: 3rem;
   font-weight: 600;
   line-height: 1.2;
 }
-h2 {
-  font-size: 2rem;
-  font-weight: 600;
 
+@media(max-width: 1100px) {
+  h1 {
+    text-align: left;
+  }
 }
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
 p {
   font-size: 1rem;
   padding: 0;
   margin: 0 0 1rem 0;
 }
+
 a {
   color: black;
 }
+
 img {
   width: 100%;
   max-width: 100%;
 }
+
 .wrapper {
   width: 83%;
   margin: 0 auto;
 }
+
 .primary-btn {
   display: inline-block;
   text-decoration: none;
@@ -76,6 +85,7 @@ img {
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
+
 .primary-btn:focus, .primary-btn:hover {
     background-color: black;
     color: white;

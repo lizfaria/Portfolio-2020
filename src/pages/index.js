@@ -3,13 +3,14 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
+import Img from "gatsby-image"
 
 export default function IndexPage({data}) {
   const { allMarkdownRemark } = data 
   const { frontmatter, html } = allMarkdownRemark.edges[0].node;
   const {headshot, overtitle, resume, title} = frontmatter;
-  const headshotFile = headshot.replace("/static", "")
 
+  
   const Grid = styled.div`
     @media (min-width: 1100px) {
       display: flex; 
@@ -65,14 +66,14 @@ export default function IndexPage({data}) {
       <Header className="h1--sm">{title}</Header>
       <Grid>
         <LeftColumn>
-          <img src={headshotFile} alt="headshot"/>
+          <Img fluid={headshot.childImageSharp.fluid} alt="headshot"/> 
         </LeftColumn>
         <RightColumn>
           <h2>{overtitle}</h2>
           <Header className="h1--lg title">{title}</Header>
           <div dangerouslySetInnerHTML={{ __html: html }} />
           <div className="links">
-            <a className="primary-btn" target="_blank" href={resume.replace("/static", "")}>Resume</a>
+            <a className="primary-btn" target="_blank" href={resume.publicURL.replace("/static", "")}>Resume</a>
             <a className="primary-btn" target="_blank" href="https://medium.com/@lizfaria">Blog</a>
             <a className="primary-btn" target="_blank" href="https://www.linkedin.com/in/liz-faria/">LinkedIn</a>
           </div>
@@ -88,9 +89,17 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
-            headshot
+            headshot {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_noBase64
+                }
+              }
+            }
             overtitle
-            resume
+            resume {
+              publicURL
+            }
             title
           }
           html

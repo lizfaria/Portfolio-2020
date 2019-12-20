@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
 import ContactForm from "../components/ContactForm"
+
 export default function Contact({data 
   // this prop will be injected by the GraphQL query below.
 }) {
@@ -14,6 +15,7 @@ export default function Contact({data
     text-align: center;
     h1 {
       margin-bottom: .5rem;
+      text-align:center;
     }
     h2 {
       margin: 0 0 1rem 0;
@@ -66,11 +68,10 @@ export default function Contact({data
         <List>
           {links.map(link => {
             const {image, imageAlt, url, text} = link
-            const logo = image.replace("/static", "")
             return (
               <li key={url}>
                 <a target="_blank" href={url}>
-                  <img title={text} src={logo} alt={imageAlt} />
+                  <img title={text} src={image.publicURL} alt={imageAlt}></img>
                   <p class="visually-hidden">{text}</p>
                 </a>
               </li> 
@@ -92,7 +93,9 @@ export const pageQuery = graphql`
             title
             email
             links {
-              image
+              image {
+                publicURL
+              }
               imageAlt
               text
               url
