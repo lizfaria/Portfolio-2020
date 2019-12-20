@@ -17,6 +17,9 @@ export default function IndexPage({data}) {
       justify-content: space-between;
       align-items: center;
       padding-bottom: 2rem;
+      h2 {
+        margin-bottom: 0;
+      }
     }
   `
   const Header = styled.h1`
@@ -28,6 +31,7 @@ export default function IndexPage({data}) {
     }
     &.h1--lg {
       display: none;
+      margin-top:1rem;
       @media(min-width: 1100px) {
         display:block;
       }
@@ -41,9 +45,9 @@ export default function IndexPage({data}) {
     }
     .image {
       overflow: visible !important;
+      margin-bottom: 5rem;
     }
     img {
-      margin-bottom: 1.5rem;
       display: inline-block;
       border-top: 1rem solid white;
       border-bottom: 3rem solid white;
