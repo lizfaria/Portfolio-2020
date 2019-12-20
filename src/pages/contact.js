@@ -3,14 +3,19 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
-import ContactForm from "../components/ContactForm"
-
+// import ContactForm from "../components/ContactForm"
+// import effect from "../components/ThreeJs"
 export default function Contact({data 
   // this prop will be injected by the GraphQL query below.
 }) {
   const { allMarkdownRemark } = data 
   const { frontmatter } = allMarkdownRemark.edges[0].node;
   const {links, title, email} = frontmatter;
+  // useEffect(() => {
+  //   if (effectRef !== null) {
+  //     effect(effectRef);
+  //   }
+  // })
   const Header = styled.div`
     text-align: center;
     h1 {
@@ -39,6 +44,7 @@ export default function Contact({data
     li {
       margin: 0 10px 10px 10px;
       max-width: 50px;
+      width: 25px;
       @media (min-width: 568px) {
         width: calc(25% - 1rem);
       }

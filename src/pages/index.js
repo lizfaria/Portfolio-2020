@@ -37,6 +37,10 @@ export default function IndexPage({data}) {
     @media (min-width: 1100px) {
       width: calc(55% - 72px);
       margin-right: 40px;
+      margin-bottom: 2rem;
+    }
+    .image {
+      overflow: visible !important;
     }
     img {
       margin-bottom: 1.5rem;
@@ -62,11 +66,11 @@ export default function IndexPage({data}) {
   `
   return(
     <Layout>
-      <SEO title="Home" />
+      <SEO title="About" />
       <Header className="h1--sm">{title}</Header>
       <Grid>
         <LeftColumn>
-          <Img fluid={headshot.childImageSharp.fluid} alt="headshot"/> 
+          <Img className="image" fluid={headshot.childImageSharp.fluid} alt="headshot"/> 
         </LeftColumn>
         <RightColumn>
           <h2>{overtitle}</h2>
