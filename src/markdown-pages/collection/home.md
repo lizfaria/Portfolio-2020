@@ -3,7 +3,7 @@ title: Software Developer
 overtitle: 'Hi, my name''s Liz. '
 headshot: /static/assets/soho2.jpg
 logo: /static/assets/liz_logo.png
-resume: /static/assets/efaria_resume.pdf
+resume: /assets/efaria_resume-3-.pdf
 ---
 I'm based in Toronto and specialize in JavaScript, React and CSS. Previously, I worked at an digital design agency called <a href="https://designtennis.com/about/" target="_blank">Tennis</a> creating innovative websites for education, arts, science, technology and business organizations. I build my websites with a strong focus on organized code, performance, accessibility and responsiveness. 
 
