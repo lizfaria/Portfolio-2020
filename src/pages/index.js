@@ -77,7 +77,7 @@ export default function IndexPage({data}) {
           <Header className="h1--lg title">{title}</Header>
           <div dangerouslySetInnerHTML={{ __html: html }} />
           <div className="links">
-            <a className="primary-btn" target="_blank" href={resume.publicURL.replace("/static", "")}>Resume</a>
+            <a className="primary-btn" target="_blank" href={resume.publicURL}>Resume</a>
             <a className="primary-btn" target="_blank" href="https://medium.com/@lizfaria">Blog</a>
             <a className="primary-btn" target="_blank" href="https://www.linkedin.com/in/liz-faria/">LinkedIn</a>
           </div>
