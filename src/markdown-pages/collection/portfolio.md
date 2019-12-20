@@ -96,7 +96,7 @@ projects:
       an interactive grocery store map where users can click on different aisles
       to get more information about how the software can provide solutions
       according to department.
-    title: 'Invatron '
+    title: Invatron Website
   - image: /static/assets/screenshot_2019-12-17-cep-providers.png
     imageAlt: Screenshot of homepage
     links:
