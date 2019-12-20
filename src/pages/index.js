@@ -96,7 +96,7 @@ export const pageQuery = graphql`
             headshot {
               childImageSharp {
                 fluid {
-                  ...GatsbyImageSharpFluid_noBase64
+                  ...GatsbyImageSharpFluid_withWebp_noBase64
                 }
               }
             }

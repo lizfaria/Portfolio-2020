@@ -122,7 +122,7 @@ export const pageQuery = graphql`
               image {
                 childImageSharp {
                   fluid {
-                    ...GatsbyImageSharpFluid_noBase64
+                    ...GatsbyImageSharpFluid_withWebp_noBase64
                   }
                 }
               }
