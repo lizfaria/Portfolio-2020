@@ -96,7 +96,7 @@ projects:
       an interactive grocery store map where users can click on different aisles
       to get more information about how the software can provide solutions
       according to department.
-    title: Invatron Website
+    title: Invatron Site
   - image: /static/assets/screenshot_2019-12-17-cep-providers.png
     imageAlt: Screenshot of homepage
     links:
@@ -140,6 +140,6 @@ projects:
       and look behind the app. In the future, I would like to refactor this app
       to include cleaner code, draw from more reliable data and allow for user
       feedback.
-    title: Juno Accessible Bathroom Locator App
+    title: Juno Accessible Bathroom Locater App
 ---
 I've developed and contributed to sites and apps for major education, tech, business, and arts organizations including: The Textile Museum of Canada, Ryerson Entrepenur Opportunity Network, Ryerson Image Arts Centers, Staples, New Harvest, Center for Effective Practice, Invatron, Gallery 44, Factor, Downtown Yonge BIA, and Tennis Design. Some of these sites are featured below in chronological order, alongside projects I collaborated on at Bridge and Juno.
