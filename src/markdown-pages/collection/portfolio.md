@@ -58,6 +58,10 @@ projects:
       continues playing music without interruption. This site also uses slick to
       achieve an interesting slideshow with refraction and window blinds
       effects.
+
+
+      [Check out the Honorable Mention from Awwwards for this
+      site!](https://www.awwwards.com/sites/2019-factor-annual-report)
     title: Factor 2019 Annual Report
   - image: /static/assets/screenshot_2019-12-17-none.png
     imageAlt: Screenshot of homepage for EON site
