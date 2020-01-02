@@ -49,19 +49,15 @@ projects:
       JavaScript, HTML5 audio, Django Templating, Slick, CSS Animations,
       Waypoints
     text: >-
-      The annual report site features a MP3 player that is linked to every song
-      button across different pages on the site. Using HTML5 DOM methods,
-      properties, and events, users can select which songs to play, and
-      automatically play the next consecutive song on the playlist when the
-      current song ends. Whenever a user navigates to an internal page, the page
-      is loaded into a div, so the page does not refresh and the media player
-      continues playing music without interruption. This site also uses slick to
-      achieve an interesting slideshow with refraction and window blinds
-      effects.
-
-
-      [Check out the Honorable Mention from Awwwards for this
-      site!](https://www.awwwards.com/sites/2019-factor-annual-report)
+      Awarded an honorable mention from Awwwards, this annual report site
+      features a MP3 player that is linked to every song button across different
+      pages on the site. Using HTML5 DOM methods, properties, and events, users
+      can select which songs to play, and automatically play the next
+      consecutive song on the playlist when the current song ends. Whenever a
+      user navigates to an internal page, the page is loaded into a div, so the
+      page does not refresh and the media player continues playing music without
+      interruption. This site also uses slick to achieve an interesting
+      slideshow with refraction and window blinds effects.
     title: Factor 2019 Annual Report
   - image: /static/assets/screenshot_2019-12-17-none.png
     imageAlt: Screenshot of homepage for EON site
