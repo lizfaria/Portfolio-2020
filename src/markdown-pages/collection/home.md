@@ -9,4 +9,4 @@ I'm based in Toronto and specialize in JavaScript, React and CSS. Previously, I 
 
 There is an infinite possibility for creative contribution in software development. I'm inspired by the community of developers who stretch my imagination of what is possible everyday. I work hard because I want to be part of expanding possibilities and creating quality content and online experiences for everyone.
 
-I am happy when I'm connecting with others to help solve problems. This has been fostered in my past pursuits facilitating wilderness and art therapy experiences for youth, and studying continental philosophy and sociology.
+I am happy when I'm connecting with others to try to understand and solve problems. This has been fostered in my past pursuits facilitating wilderness and art therapy experiences for youth, and studying continental philosophy and sociology.
