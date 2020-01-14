@@ -5,6 +5,8 @@ headshot: /static/assets/soho2.jpg
 logo: /static/assets/liz_logo.png
 resume: /assets/resume-lizfaria.pdf
 ---
-I'm based in Toronto and specialize in JavaScript, React and CSS. Previously, I worked at an digital design agency called <a href="https://designtennis.com/about/" target="_blank">Tennis</a> creating innovative websites for education, arts, science, technology and business organizations. I build my websites with a strong focus on organized code, performance, accessibility and responsiveness. 
+I'm based in Toronto and specialize in JavaScript, React and CSS. Previously, I worked at a digital design agency called <a href="https://designtennis.com/about/" target="_blank">Tennis</a> creating innovative websites for major education, arts, science, technology and business organizations. I build my websites with a strong focus on organized code, accessibility, performance, and responsiveness.
 
-There is an infinite possibility for creative contribution in software development. After four years studying the liberal arts and exposing myself to the oldest philosophic ideas in Western history, what I love about development is its absence of constraints, how far it is from being finished, and that developers can bring it to life however they want. Other developers stretch my imagination of what is possible everyday and I want to be part of expanding possibilities and creating quality content.
+There is an infinite possibility for creative contribution in software development. I'm inspired by the community of developers who stretch my imagination of what is possible everyday. I work hard because I want to be part of expanding possibilities and creating quality content and online experiences for people.
+
+I am happy when I'm connecting with others to help solve problems. This has been fostered in my past pursuits facilitating wilderness and art therapy experiences for youth, and studying continental philosophy and sociology.
