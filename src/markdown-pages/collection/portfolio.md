@@ -40,6 +40,34 @@ projects:
       reason, it is built as a Progressive Web App - it uses a service worker to
       cache data.
     title: Textile Museum of Canada Exhibition App
+  - image: /assets/screenshot_2020-01-17-react-redux-app.png
+    imageAlt: Screenshot of project landing page
+    links:
+      - url: 'https://gracious-raman-397955.netlify.com'
+        url_text: See Live
+      - url: 'https://github.com/lizfaria/personal-project-react'
+        url_text: See Github
+    subtitle: 'React, Redux, Jest, Styled Components, Github API, '
+    text: >-
+      A personal project that allows you to search a GitHub username and
+      displays that user's information from Github Events API.  
+
+
+      On change of input, a redux action is triggered to store the new username
+      state in the redux store, and on submit, an dispatch is triggered to call
+      the redux thunk for the inputted GitHub username. The thunk function makes
+      an API call to Github API Events Endpoint to get the information
+      associated with the username. If an invalid username is searched, the
+      thunk dispatches an action which prompts a form error prompting the user
+      to try another name. Otherwise, when user information has been returned,
+      the thunk dispatches two actions: One to hide the form, and another to
+      save the 30 most recent user events in an array in recentRepos state. I
+      filter through the events and display github username with two lists: the
+      most recent repositories (repos) forked by the username provided and their
+      most recent pull requests. This is a Test Driven Development App. There
+      are tests for all of the components, reducers, and helper functions. It is
+      Styled with CSS and styled components
+    title: Micro Test-Driven React-Redux Personal Project
   - image: /static/assets/screenshot_2019-12-17-factor-2018—2019-artists-1-.png
     imageAlt: Screenshot of Homepage
     links:
