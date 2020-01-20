@@ -47,26 +47,25 @@ projects:
         url_text: See Live
       - url: 'https://github.com/lizfaria/personal-project-react'
         url_text: See Github
-    subtitle: 'React, Redux, Jest, Styled Components, Github API, '
+    subtitle: 'React, Redux, Jest, Styled Components, Github API, Async/Await'
     text: >-
       A personal project that allows you to search a GitHub username and
-      displays that user's information from Github Events API.  
+      displays that user's information from Github Events API. 
 
 
-      On change of input, a redux action is triggered to store the new username
-      state in the redux store, and on submit, an dispatch is triggered to call
-      the redux thunk for the inputted GitHub username. The thunk function makes
-      an API call to Github API Events Endpoint to get the information
-      associated with the username. If an invalid username is searched, the
-      thunk dispatches an action which prompts a form error prompting the user
-      to try another name. Otherwise, when user information has been returned,
-      the thunk dispatches two actions: One to hide the form, and another to
-      save the 30 most recent user events in an array in recentRepos state. I
-      filter through the events and display github username with two lists: the
-      most recent repositories (repos) forked by the username provided and their
-      most recent pull requests. This is a Test Driven Development App. There
-      are tests for all of the components, reducers, and helper functions. It is
-      Styled with CSS and styled components
+      On change of input, a Redux action is triggered to store the new username
+      state in the redux store, and on submit, a dispatch is triggered to call
+      the Redux thunk. The thunk Async/Await function calls the Github API
+      Events Endpoint to get the information associated with the username. If an
+      invalid username is searched, an action is dispatched, prompting a form
+      error. Otherwise, when user information has been returned with a status of
+      OK, the thunk dispatches two actions: One to hide the form, and another to
+      save the 30 most recent events in an array. I filter through the array
+      twice to display the github username with two lists: the most recent
+      repositories (repos) forked by the username provided and their most recent
+      pull requests. This is a Test Driven Development App. There are tests for
+      all of the components, reducers, and helper functions. It is styled with
+      CSS and Styled-Components
     title: Micro Test-Driven React-Redux Personal Project
   - image: /static/assets/screenshot_2019-12-17-factor-2018—2019-artists-1-.png
     imageAlt: Screenshot of Homepage
