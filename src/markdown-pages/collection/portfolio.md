@@ -29,7 +29,7 @@ projects:
         url_text: See Live
     subtitle: >-
       PWA, React, GraphQl, Gatsby, Netlify CMS, Netlify Continous Deployment,
-      GSAP, ThreeJS
+      SCSS, GSAP, ThreeJS
     text: >-
       This app is currently installed on iPads at the Textile Museum of Canada
       to pair with the ᖃᓪᓗᓈᖅᑕᐃᑦ ᓯᑯᓯᓛᕐᒥᑦ PRINTED TEXTILES FROM KINNGAIT STUDIOS
@@ -73,8 +73,8 @@ projects:
       - url: 'http://2019.factor.ca/'
         url_text: See Live
     subtitle: >-
-      JavaScript, HTML5 audio, Django Templating, Slick, CSS Animations,
-      Waypoints
+      JavaScript, HTML5 audio, Django Templating, Slick, Waypoints, CSS
+      Animations, SCSS
     text: >-
       Awarded an honorable mention from Awwwards, this annual report site
       features a MP3 player that is linked to every song button across different
@@ -91,7 +91,7 @@ projects:
     links:
       - url: 'http://eon.ryerson.ca/'
         url_text: See Live
-    subtitle: 'JavaScript, SCSS, Django Templating, HTML, MailChimp, Custom CMS'
+    subtitle: 'JavaScript, SCSS, Django Templating, HTML, MailChimp'
     text: >-
       This fast website for Ryerson's Employment Opportunity program is created
       using templates so site managers can easily add and remove components on
