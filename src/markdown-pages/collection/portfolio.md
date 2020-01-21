@@ -11,7 +11,7 @@ projects:
       - url: 'https://github.com/bridge-school/cohort-9-app-app-fe/'
         url_text: See Frontend Code
     subtitle: >-
-      React, Redux, Unit & Component Testing, Node, Firebase, CID, Team
+      React, Redux, Unit & Component Testing, Node, Firebase DB, CID, Team
       Programming, Continous Integration & Deployment, Semantic UI
     text: >-
       For the final group project for Bridge, I collaborated in a team of four
