@@ -14,8 +14,11 @@ projects:
     text: >-
       This React Native Application gets colour palettes from artist Matt
       DesLauriers' github raw files and displays them in screens for users to
-      view. Users can customize their own palette using aggregated colors from
-      the palettes on a modal form.
+      view. Users can customize their own palette using aggregated colours from
+      the palettes on a modal form. Please note, features of this app like
+      scrolling and the switch input are meant for mobile. For a better
+      experience, try viewing from a mobile browser or simulating a phone device
+      with touch simulation enabled from your desktop browser inspector.
     title: React Native Personal Project
   - image: /static/assets/screenshot_2019-12-17-cohort-application-forms-1-.png
     imageAlt: Screenshot of Admin Dashboard on Applications App
