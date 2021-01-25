@@ -1,7 +1,7 @@
 ---
 title: Featured Work
 projects:
-  - image: /assets/screen-shot-2021-01-25-at-10.44.22-am.png
+  - image: /assets/screen-shot-2021-01-25-at-11.02.09-am.png
     imageAlt: Screenshot of App Home Page on Iphone Frame
     links:
       - url: 'https://react-native-palettes.netlify.app/'
