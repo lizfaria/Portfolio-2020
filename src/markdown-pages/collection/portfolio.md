@@ -1,6 +1,22 @@
 ---
 title: Featured Work
 projects:
+  - image: /assets/screen-shot-2021-01-25-at-10.44.22-am.png
+    imageAlt: Screenshot of App Home Page on Iphone Frame
+    links:
+      - url: 'https://react-native-palettes.netlify.app/'
+        url_text: See Live
+      - url: 'https://github.com/lizfaria/React-Native-Color-Palette-App'
+        url_text: See Code
+    subtitle: >-
+      React Native, TypeScript, Expo, React Navigation Library, ES6, React
+      Hooks, Async/Await
+    text: >-
+      This React Native Application gets colour palettes from artist Matt
+      DesLauriers' github raw files and displays them in screens for users to
+      view. Users can customize their own palette using aggregated colors from
+      the palettes on a modal form.
+    title: React Native Personal Project
   - image: /static/assets/screenshot_2019-12-17-cohort-application-forms-1-.png
     imageAlt: Screenshot of Admin Dashboard on Applications App
     links:
@@ -168,21 +184,5 @@ projects:
       to include cleaner code, draw from more reliable data and allow for user
       feedback.
     title: Juno Accessible Bathroom Locater App
-  - image: /assets/screen-shot-2021-01-25-at-10.44.22-am.png
-    imageAlt: Screenshot of App Home Page on Iphone Frame
-    links:
-      - url: 'https://react-native-palettes.netlify.app/'
-        url_text: See Live
-      - url: 'https://github.com/lizfaria/React-Native-Color-Palette-App'
-        url_text: See Code
-    subtitle: >-
-      React Native, TypeScript, Expo, React Navigation Library, ES6, React
-      Hooks, Async/Await
-    text: >-
-      This React Native Application gets colour palettes from artist Matt
-      DesLauriers' github raw files and displays them in screens for users to
-      view. Users can customize their own palette using aggregated colors from
-      the palettes on a modal form.
-    title: React Native Personal Project
 ---
 I've developed and contributed to sites and apps for major education, tech, business, and arts organizations including: The Textile Museum of Canada, Ryerson Entrepenur Opportunity Network, Ryerson Image Arts Centers, Staples, New Harvest, Center for Effective Practice, Invatron, Gallery 44, Factor, Downtown Yonge BIA, and Tennis Design. Some of these sites are featured below in chronological order, alongside projects I collaborated on at Bridge and Juno.
