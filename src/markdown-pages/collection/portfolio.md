@@ -1,6 +1,21 @@
 ---
 title: Featured Work
 projects:
+  - image: /assets/screen-shot-2021-07-12-at-07.39.05.png
+    imageAlt: Screenshot of homepage of Miranda Schreiber portfolio site
+    links:
+      - url: 'https://mirandaschreiber.ca/'
+        url_text: See Live
+      - url: 'https://github.com/lizfaria/miranda_schreiber'
+        url_text: See Code
+    subtitle: >-
+      React, ES6, Gatsby, GraphQL, Netlify CMS, Continuous Integration &
+      Deployment, Styled Components, Netlify Hosting 
+    text: >-
+      Responsive and accessible Portfolio for Toronto-based writer, researcher,
+      and advocate for 2SLGBTQ+ health equity. Created using React, Gatsby,
+      GraphQL, Styled Components and Netlify Headless CMS. Hosted on Netlify.
+    title: Miranda Schreiber Portfolio
   - image: /assets/screen-shot-2021-01-25-at-11.02.09-am.png
     imageAlt: Screenshot of App Home Page on Iphone Frame
     links:
@@ -182,10 +197,7 @@ projects:
       location and form inputs, this site helps users find wheelchair accessible
       and gender-neutral washrooms. I collaborated on this app with a classmate
       for the first JavaScript project at the Juno Web Development Bootcamp in
-      Spring 2017. Although the code is not perfect, I am very proud of the idea
-      and look behind the app. In the future, I would like to refactor this app
-      to include cleaner code, draw from more reliable data and allow for user
-      feedback.
+      Spring 2017.
     title: Juno Accessible Bathroom Locater App
 ---
 I've developed and contributed to sites and apps for major education, tech, business, and arts organizations including: The Textile Museum of Canada, Ryerson Entrepenur Opportunity Network, Ryerson Image Arts Centers, Staples, New Harvest, Center for Effective Practice, Invatron, Gallery 44, Factor, Downtown Yonge BIA, and Tennis Design. Some of these sites are featured below in chronological order, alongside projects I collaborated on at Bridge and Juno.
