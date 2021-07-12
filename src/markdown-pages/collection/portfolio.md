@@ -13,8 +13,7 @@ projects:
       Deployment, Styled Components, Netlify Hosting 
     text: >-
       Responsive and accessible Portfolio for Toronto-based writer, researcher,
-      and advocate for 2SLGBTQ+ health equity. Created using React, Gatsby,
-      GraphQL, Styled Components and Netlify Headless CMS. Hosted on Netlify.
+      and advocate for 2SLGBTQ+ health equity.
     title: Miranda Schreiber Portfolio
   - image: /assets/screen-shot-2021-01-25-at-11.02.09-am.png
     imageAlt: Screenshot of App Home Page on Iphone Frame
