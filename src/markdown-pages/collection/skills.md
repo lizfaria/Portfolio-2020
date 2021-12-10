@@ -2,12 +2,12 @@
 title: Skills
 skills-list:
   - text: JavaScript (~ES6)
-  - text: Functional Programming
   - text: React
-  - text: Redux
-  - text: Test Driven Development (Enzyme + Jest)
   - text: Node
   - text: CSS3/SCSS
+  - text: Functional Programming
+  - text: Test Driven Development (Cypress + Jest)
+  - text: Redux
   - text: Semantic HTML
   - text: A11Y + WCAG
   - text: Gatsby
