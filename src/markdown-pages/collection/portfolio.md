@@ -1,6 +1,24 @@
 ---
 title: Featured Work
 projects:
+  - image: /static/assets/screenshot_2019-12-17-home.jpg
+    imageAlt: Screenshot of Homepage for TMC Application
+    links:
+      - url: 'https://tmc-exhibition-pwa.netlify.com/'
+        url_text: See Live
+    subtitle: >-
+      PWA, React, GraphQl, Gatsby, Netlify CMS, Netlify Continous Deployment,
+      SCSS, GSAP, ThreeJS
+    text: >-
+      This app is currently installed on iPads at the Textile Museum of Canada
+      to pair with the ᖃᓪᓗᓈᖅᑕᐃᑦ ᓯᑯᓯᓛᕐᒥᑦ PRINTED TEXTILES FROM KINNGAIT STUDIOS
+      exhibit. It displays all objects at the exhibit and features hotspots on
+      each object page that users can interact with to open multimedia models
+      with more information. A requirement of the app was for it to provide
+      support for offline experience and bad network connections. For this
+      reason, it is built as a Progressive Web App - it uses a service worker to
+      cache data.
+    title: Textile Museum of Canada Exhibition App
   - image: /assets/screen-shot-2021-07-12-at-07.39.05.png
     imageAlt: Screenshot of homepage of Miranda Schreiber portfolio site
     links:
@@ -55,24 +73,6 @@ projects:
       database. We also used deployment services like Netlify and Heroku for
       continous deployment of integrated code on Github.
     title: Bridge Applications App
-  - image: /static/assets/screenshot_2019-12-17-home.jpg
-    imageAlt: Screenshot of Homepage for TMC Application
-    links:
-      - url: 'https://tmc-exhibition-pwa.netlify.com/'
-        url_text: See Live
-    subtitle: >-
-      PWA, React, GraphQl, Gatsby, Netlify CMS, Netlify Continous Deployment,
-      SCSS, GSAP, ThreeJS
-    text: >-
-      This app is currently installed on iPads at the Textile Museum of Canada
-      to pair with the ᖃᓪᓗᓈᖅᑕᐃᑦ ᓯᑯᓯᓛᕐᒥᑦ PRINTED TEXTILES FROM KINNGAIT STUDIOS
-      exhibit. It displays all objects at the exhibit and features hotspots on
-      each object page that users can interact with to open multimedia models
-      with more information. A requirement of the app was for it to provide
-      support for offline experience and bad network connections. For this
-      reason, it is built as a Progressive Web App - it uses a service worker to
-      cache data.
-    title: Textile Museum of Canada Exhibition App
   - image: /assets/screenshot_2020-01-17-react-redux-app.png
     imageAlt: Screenshot of project landing page
     links:
@@ -199,4 +199,4 @@ projects:
       Spring 2017.
     title: Juno Accessible Bathroom Locater App
 ---
-I've developed and contributed to sites and apps for major education, tech, business, and arts organizations including: The Textile Museum of Canada, Ryerson Entrepenur Opportunity Network, Ryerson Image Arts Centers, Staples, New Harvest, Center for Effective Practice, Invatron, Gallery 44, Factor, Downtown Yonge BIA, and Tennis Design. Some of these sites are featured below in chronological order, alongside projects I collaborated on at Bridge and Juno.
+I've developed and contributed to sites and apps for major education, tech, business, and arts organizations including: The Textile Museum of Canada, Ryerson Entrepenur Opportunity Network, Ryerson Image Arts Centers, Staples, New Harvest, Center for Effective Practice, Invatron, Gallery 44, Factor, Downtown Yonge BIA, and Tennis Design. Some of these sites are featured below, alongside projects I collaborated on at Bridge and Juno.
