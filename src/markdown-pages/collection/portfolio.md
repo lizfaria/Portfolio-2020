@@ -21,8 +21,8 @@ projects:
   - image: /assets/screen-shot-2022-05-27-at-14.39.44.png
     imageAlt: Screenshot of homepage of Rachel Gerry's portfolio site
     links:
-      - url: See Live
-        url_text: 'https://rachelgerry.com/'
+      - url: 'https://rachelgerry.com/'
+        url_text: See Live
     subtitle: >-
       React, ES6, Gatsby, GraphQL, Netlify CMS, Continuous Integration &
       Deployment, Styled Components, Netlify Hosting
