@@ -207,7 +207,7 @@ projects:
       location and form inputs, this site helps users find wheelchair accessible
       and gender-neutral washrooms. I collaborated on this app with a classmate
       for the first JavaScript project at the Juno Web Development Bootcamp in
-      Spring 2017.
+      Spring 2018.
     title: Juno Accessible Bathroom Locater App
 ---
 I've developed and contributed to sites and apps for major education, tech, business, and arts organizations including: The Textile Museum of Canada, Ryerson Entrepenur Opportunity Network, Ryerson Image Arts Centers, Staples, New Harvest, Center for Effective Practice, Invatron, Gallery 44, Factor, Downtown Yonge BIA, and Tennis Design. Some of these sites are featured below, alongside projects I collaborated on at Bridge and Juno.
